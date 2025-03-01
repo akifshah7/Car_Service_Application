@@ -61,6 +61,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://car-service-application-smoky.vercel.app",
 ]
 
 ROOT_URLCONF = 'backend.urls'
